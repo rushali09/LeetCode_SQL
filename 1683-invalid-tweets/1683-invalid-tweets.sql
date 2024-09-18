@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+
+
+
+SELECT TWEET_ID 
+FROM TWEETS
+WHERE CHARACTER_LENGTH(CONTENT)>15
+
